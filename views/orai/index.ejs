@@ -1,0 +1,418 @@
+<%- include('../layouts/top') %>
+<div
+  class="container d-flex justify-content-center align-items-center flex-wrap"
+>
+  <div class="d-flex mb-5">
+    <div class="card" style="width: 18rem">
+      <img
+        src="https://lh5.googleusercontent.com/proxy/pbmvpQX5uwI_jMPHJKsYVANDmTcIXJc5obBf6Dz0zfPeIzTOTH7oaKKwbEREWg-03wWfHxPxDQpol5len2ZhzDNGHhk4cNosV-smWjPAvdcdBc0BiMvZS-UJEboHKxA7m_YAVfLye1SKtWqCL_IGx-X9DNgU6tE=w675-h390-n-k-no"
+        class="card-img-top"
+        alt="..."
+      />
+      <div class="card-body">
+        <h5 class="card-title">Vilnius</h5>
+        <p class="card-text"><%= vilnius1.forecastTimeUtc %></p>
+        <p class="card-text"><%= vilnius1.airTemperature %> °C</p>
+        <p class="card-text">
+          Juntamoji temperatūra: <%= vilnius1.feelsLikeTemperature %> °C
+        </p>
+        <p class="card-text">
+          Vėjo greitis (gūsiai): <%= vilnius1.windSpeed %> m/s
+        </p>
+        <p class="card-text">Vėjo direkcija: <%= vilnius1.windDirection %>°</p>
+        <p class="card-text">Debesuotomas: <%= vilnius1.conditionCode %></p>
+        <a href="#" class="btn btn-primary">Daugiau prognozių</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem">
+      <img
+        src="https://lh5.googleusercontent.com/proxy/pbmvpQX5uwI_jMPHJKsYVANDmTcIXJc5obBf6Dz0zfPeIzTOTH7oaKKwbEREWg-03wWfHxPxDQpol5len2ZhzDNGHhk4cNosV-smWjPAvdcdBc0BiMvZS-UJEboHKxA7m_YAVfLye1SKtWqCL_IGx-X9DNgU6tE=w675-h390-n-k-no"
+        class="card-img-top"
+        alt="..."
+      />
+      <div class="card-body">
+        <h5 class="card-title">Vilnius</h5>
+        <p class="card-text"><%= vilnius2.forecastTimeUtc %></p>
+        <p class="card-text"><%= vilnius2.airTemperature %> °C</p>
+        <p class="card-text">
+          Juntamoji temperatūra: <%= vilnius2.feelsLikeTemperature %> °C
+        </p>
+        <p class="card-text">
+          Vėjo greitis (gūsiai): <%= vilnius2.windSpeed %> m/s
+        </p>
+        <p class="card-text">Vėjo direkcija: <%= vilnius2.windDirection %>°</p>
+        <p class="card-text">Debesuotomas: <%= vilnius2.conditionCode %></p>
+        <a href="#" class="btn btn-primary">Daugiau prognozių</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem">
+      <img
+        src="https://lh5.googleusercontent.com/proxy/pbmvpQX5uwI_jMPHJKsYVANDmTcIXJc5obBf6Dz0zfPeIzTOTH7oaKKwbEREWg-03wWfHxPxDQpol5len2ZhzDNGHhk4cNosV-smWjPAvdcdBc0BiMvZS-UJEboHKxA7m_YAVfLye1SKtWqCL_IGx-X9DNgU6tE=w675-h390-n-k-no"
+        class="card-img-top"
+        alt="..."
+      />
+      <div class="card-body">
+        <h5 class="card-title">Vilnius</h5>
+        <p class="card-text"><%= vilnius3.forecastTimeUtc %></p>
+        <p class="card-text"><%= vilnius3.airTemperature %> °C</p>
+        <p class="card-text">
+          Juntamoji temperatūra: <%= vilnius3.feelsLikeTemperature %> °C
+        </p>
+        <p class="card-text">
+          Vėjo greitis (gūsiai): <%= vilnius3.windSpeed %> m/s
+        </p>
+        <p class="card-text">Vėjo direkcija: <%= vilnius3.windDirection %>°</p>
+        <p class="card-text">Debesuotomas: <%= vilnius3.conditionCode %></p>
+        <a href="#" class="btn btn-primary">Daugiau prognozių</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="d-flex mb-5">
+    <div class="card" style="width: 18rem">
+      <img
+        src="https://lh5.googleusercontent.com/proxy/pbmvpQX5uwI_jMPHJKsYVANDmTcIXJc5obBf6Dz0zfPeIzTOTH7oaKKwbEREWg-03wWfHxPxDQpol5len2ZhzDNGHhk4cNosV-smWjPAvdcdBc0BiMvZS-UJEboHKxA7m_YAVfLye1SKtWqCL_IGx-X9DNgU6tE=w675-h390-n-k-no"
+        class="card-img-top"
+        alt="..."
+      />
+      <div class="card-body">
+        <h5 class="card-title">Vilnius</h5>
+        <p class="card-text"><%= vilnius4.forecastTimeUtc %></p>
+        <p class="card-text"><%= vilnius4.airTemperature %> °C</p>
+        <p class="card-text">
+          Juntamoji temperatūra: <%= vilnius4.feelsLikeTemperature %> °C
+        </p>
+        <p class="card-text">
+          Vėjo greitis (gūsiai): <%= vilnius4.windSpeed %> m/s
+        </p>
+        <p class="card-text">Vėjo direkcija: <%= vilnius4.windDirection %>°</p>
+        <p class="card-text">Debesuotomas: <%= vilnius4.conditionCode %></p>
+        <a href="#" class="btn btn-primary">Daugiau prognozių</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem">
+      <img
+        src="https://lh5.googleusercontent.com/proxy/pbmvpQX5uwI_jMPHJKsYVANDmTcIXJc5obBf6Dz0zfPeIzTOTH7oaKKwbEREWg-03wWfHxPxDQpol5len2ZhzDNGHhk4cNosV-smWjPAvdcdBc0BiMvZS-UJEboHKxA7m_YAVfLye1SKtWqCL_IGx-X9DNgU6tE=w675-h390-n-k-no"
+        class="card-img-top"
+        alt="..."
+      />
+      <div class="card-body">
+        <h5 class="card-title">Vilnius</h5>
+        <p class="card-text"><%= vilnius5.forecastTimeUtc %></p>
+        <p class="card-text"><%= vilnius5.airTemperature %> °C</p>
+        <p class="card-text">
+          Juntamoji temperatūra: <%= vilnius5.feelsLikeTemperature %> °C
+        </p>
+        <p class="card-text">
+          Vėjo greitis (gūsiai): <%= vilnius5.windSpeed %> m/s
+        </p>
+        <p class="card-text">Vėjo direkcija: <%= vilnius5.windDirection %>°</p>
+        <p class="card-text">Debesuotomas: <%= vilnius5.conditionCode %></p>
+        <a href="#" class="btn btn-primary">Daugiau prognozių</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem">
+      <img
+        src="https://lh5.googleusercontent.com/proxy/pbmvpQX5uwI_jMPHJKsYVANDmTcIXJc5obBf6Dz0zfPeIzTOTH7oaKKwbEREWg-03wWfHxPxDQpol5len2ZhzDNGHhk4cNosV-smWjPAvdcdBc0BiMvZS-UJEboHKxA7m_YAVfLye1SKtWqCL_IGx-X9DNgU6tE=w675-h390-n-k-no"
+        class="card-img-top"
+        alt="..."
+      />
+      <div class="card-body">
+        <h5 class="card-title">Vilnius</h5>
+        <p class="card-text"><%= vilnius6.forecastTimeUtc %></p>
+        <p class="card-text"><%= vilnius6.airTemperature %> °C</p>
+        <p class="card-text">
+          Juntamoji temperatūra: <%= vilnius6.feelsLikeTemperature %> °C
+        </p>
+        <p class="card-text">
+          Vėjo greitis (gūsiai): <%= vilnius6.windSpeed %> m/s
+        </p>
+        <p class="card-text">Vėjo direkcija: <%= vilnius6.windDirection %>°</p>
+        <p class="card-text">Debesuotomas: <%= vilnius6.conditionCode %></p>
+        <a href="#" class="btn btn-primary">Daugiau prognozių</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="d-flex mb-5">
+    <div class="card" style="width: 18rem">
+      <img
+        src="https://lh5.googleusercontent.com/proxy/pbmvpQX5uwI_jMPHJKsYVANDmTcIXJc5obBf6Dz0zfPeIzTOTH7oaKKwbEREWg-03wWfHxPxDQpol5len2ZhzDNGHhk4cNosV-smWjPAvdcdBc0BiMvZS-UJEboHKxA7m_YAVfLye1SKtWqCL_IGx-X9DNgU6tE=w675-h390-n-k-no"
+        class="card-img-top"
+        alt="..."
+      />
+      <div class="card-body">
+        <h5 class="card-title">kaunas</h5>
+        <p class="card-text"><%= kaunas1.forecastTimeUtc %></p>
+        <p class="card-text"><%= kaunas1.airTemperature %> °C</p>
+        <p class="card-text">
+          Juntamoji temperatūra: <%= kaunas1.feelsLikeTemperature %> °C
+        </p>
+        <p class="card-text">
+          Vėjo greitis (gūsiai): <%= kaunas1.windSpeed %> m/s
+        </p>
+        <p class="card-text">Vėjo direkcija: <%= kaunas1.windDirection %>°</p>
+        <p class="card-text">Debesuotomas: <%= kaunas1.conditionCode %></p>
+        <a href="#" class="btn btn-primary">Daugiau prognozių</a>
+      </div>
+    </div>
+
+
+
+    <div class="card" style="width: 18rem">
+      <img
+        src="https://lh5.googleusercontent.com/proxy/pbmvpQX5uwI_jMPHJKsYVANDmTcIXJc5obBf6Dz0zfPeIzTOTH7oaKKwbEREWg-03wWfHxPxDQpol5len2ZhzDNGHhk4cNosV-smWjPAvdcdBc0BiMvZS-UJEboHKxA7m_YAVfLye1SKtWqCL_IGx-X9DNgU6tE=w675-h390-n-k-no"
+        class="card-img-top"
+        alt="..."
+      />
+      <div class="card-body">
+        <h5 class="card-title">kaunas</h5>
+        <p class="card-text"><%= kaunas2.forecastTimeUtc %></p>
+        <p class="card-text"><%= kaunas2.airTemperature %> °C</p>
+        <p class="card-text">
+          Juntamoji temperatūra: <%= kaunas2.feelsLikeTemperature %> °C
+        </p>
+        <p class="card-text">
+          Vėjo greitis (gūsiai): <%= kaunas2.windSpeed %> m/s
+        </p>
+        <p class="card-text">Vėjo direkcija: <%= kaunas2.windDirection %>°</p>
+        <p class="card-text">Debesuotomas: <%= kaunas2.conditionCode %></p>
+        <a href="#" class="btn btn-primary">Daugiau prognozių</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem">
+      <img
+        src="https://lh5.googleusercontent.com/proxy/pbmvpQX5uwI_jMPHJKsYVANDmTcIXJc5obBf6Dz0zfPeIzTOTH7oaKKwbEREWg-03wWfHxPxDQpol5len2ZhzDNGHhk4cNosV-smWjPAvdcdBc0BiMvZS-UJEboHKxA7m_YAVfLye1SKtWqCL_IGx-X9DNgU6tE=w675-h390-n-k-no"
+        class="card-img-top"
+        alt="..."
+      />
+      <div class="card-body">
+        <h5 class="card-title">kaunas</h5>
+        <p class="card-text"><%= kaunas3.forecastTimeUtc %></p>
+        <p class="card-text"><%= kaunas3.airTemperature %> °C</p>
+        <p class="card-text">
+          Juntamoji temperatūra: <%= kaunas3.feelsLikeTemperature %> °C
+        </p>
+        <p class="card-text">
+          Vėjo greitis (gūsiai): <%= kaunas3.windSpeed %> m/s
+        </p>
+        <p class="card-text">Vėjo direkcija: <%= kaunas3.windDirection %>°</p>
+        <p class="card-text">Debesuotomas: <%= kaunas3.conditionCode %></p>
+        <a href="#" class="btn btn-primary">Daugiau prognozių</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="d-flex mb-5">
+    <div class="card" style="width: 18rem">
+      <img
+        src="https://lh5.googleusercontent.com/proxy/pbmvpQX5uwI_jMPHJKsYVANDmTcIXJc5obBf6Dz0zfPeIzTOTH7oaKKwbEREWg-03wWfHxPxDQpol5len2ZhzDNGHhk4cNosV-smWjPAvdcdBc0BiMvZS-UJEboHKxA7m_YAVfLye1SKtWqCL_IGx-X9DNgU6tE=w675-h390-n-k-no"
+        class="card-img-top"
+        alt="..."
+      />
+      <div class="card-body">
+        <h5 class="card-title">kaunas</h5>
+        <p class="card-text"><%= kaunas4.forecastTimeUtc %></p>
+        <p class="card-text"><%= kaunas4.airTemperature %> °C</p>
+        <p class="card-text">
+          Juntamoji temperatūra: <%= kaunas4.feelsLikeTemperature %> °C
+        </p>
+        <p class="card-text">
+          Vėjo greitis (gūsiai): <%= kaunas4.windSpeed %> m/s
+        </p>
+        <p class="card-text">Vėjo direkcija: <%= kaunas4.windDirection %>°</p>
+        <p class="card-text">Debesuotomas: <%= kaunas4.conditionCode %></p>
+        <a href="#" class="btn btn-primary">Daugiau prognozių</a>
+      </div>
+    </div>
+
+
+
+    <div class="card" style="width: 18rem">
+      <img
+        src="https://lh5.googleusercontent.com/proxy/pbmvpQX5uwI_jMPHJKsYVANDmTcIXJc5obBf6Dz0zfPeIzTOTH7oaKKwbEREWg-03wWfHxPxDQpol5len2ZhzDNGHhk4cNosV-smWjPAvdcdBc0BiMvZS-UJEboHKxA7m_YAVfLye1SKtWqCL_IGx-X9DNgU6tE=w675-h390-n-k-no"
+        class="card-img-top"
+        alt="..."
+      />
+      <div class="card-body">
+        <h5 class="card-title">kaunas</h5>
+        <p class="card-text"><%= kaunas5.forecastTimeUtc %></p>
+        <p class="card-text"><%= kaunas5.airTemperature %> °C</p>
+        <p class="card-text">
+          Juntamoji temperatūra: <%= kaunas5.feelsLikeTemperature %> °C
+        </p>
+        <p class="card-text">
+          Vėjo greitis (gūsiai): <%= kaunas5.windSpeed %> m/s
+        </p>
+        <p class="card-text">Vėjo direkcija: <%= kaunas5.windDirection %>°</p>
+        <p class="card-text">Debesuotomas: <%= kaunas5.conditionCode %></p>
+        <a href="#" class="btn btn-primary">Daugiau prognozių</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem">
+      <img
+        src="https://lh5.googleusercontent.com/proxy/pbmvpQX5uwI_jMPHJKsYVANDmTcIXJc5obBf6Dz0zfPeIzTOTH7oaKKwbEREWg-03wWfHxPxDQpol5len2ZhzDNGHhk4cNosV-smWjPAvdcdBc0BiMvZS-UJEboHKxA7m_YAVfLye1SKtWqCL_IGx-X9DNgU6tE=w675-h390-n-k-no"
+        class="card-img-top"
+        alt="..."
+      />
+      <div class="card-body">
+        <h5 class="card-title">kaunas</h5>
+        <p class="card-text"><%= kaunas6.forecastTimeUtc %></p>
+        <p class="card-text"><%= kaunas6.airTemperature %> °C</p>
+        <p class="card-text">
+          Juntamoji temperatūra: <%= kaunas6.feelsLikeTemperature %> °C
+        </p>
+        <p class="card-text">
+          Vėjo greitis (gūsiai): <%= kaunas6.windSpeed %> m/s
+        </p>
+        <p class="card-text">Vėjo direkcija: <%= kaunas6.windDirection %>°</p>
+        <p class="card-text">Debesuotomas: <%= kaunas6.conditionCode %></p>
+        <a href="#" class="btn btn-primary">Daugiau prognozių</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="d-flex">
+    <div class="card" style="width: 18rem">
+      <img
+        src="https://lh5.googleusercontent.com/proxy/pbmvpQX5uwI_jMPHJKsYVANDmTcIXJc5obBf6Dz0zfPeIzTOTH7oaKKwbEREWg-03wWfHxPxDQpol5len2ZhzDNGHhk4cNosV-smWjPAvdcdBc0BiMvZS-UJEboHKxA7m_YAVfLye1SKtWqCL_IGx-X9DNgU6tE=w675-h390-n-k-no"
+        class="card-img-top"
+        alt="..."
+      />
+      <div class="card-body">
+        <h5 class="card-title">klaipeda</h5>
+        <p class="card-text"><%= klaipeda1.forecastTimeUtc %></p>
+        <p class="card-text"><%= klaipeda1.airTemperature %> °C</p>
+        <p class="card-text">
+          Juntamoji temperatūra: <%= klaipeda1.feelsLikeTemperature %> °C
+        </p>
+        <p class="card-text">
+          Vėjo greitis (gūsiai): <%= klaipeda1.windSpeed %> m/s
+        </p>
+        <p class="card-text">Vėjo direkcija: <%= klaipeda1.windDirection %>°</p>
+        <p class="card-text">Debesuotomas: <%= klaipeda1.conditionCode %></p>
+        <a href="#" class="btn btn-primary">Daugiau prognozių</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem">
+      <img
+        src="https://lh5.googleusercontent.com/proxy/pbmvpQX5uwI_jMPHJKsYVANDmTcIXJc5obBf6Dz0zfPeIzTOTH7oaKKwbEREWg-03wWfHxPxDQpol5len2ZhzDNGHhk4cNosV-smWjPAvdcdBc0BiMvZS-UJEboHKxA7m_YAVfLye1SKtWqCL_IGx-X9DNgU6tE=w675-h390-n-k-no"
+        class="card-img-top"
+        alt="..."
+      />
+      <div class="card-body">
+        <h5 class="card-title">klaipeda</h5>
+        <p class="card-text"><%= klaipeda2.forecastTimeUtc %></p>
+        <p class="card-text"><%= klaipeda2.airTemperature %> °C</p>
+        <p class="card-text">
+          Juntamoji temperatūra: <%= klaipeda2.feelsLikeTemperature %> °C
+        </p>
+        <p class="card-text">
+          Vėjo greitis (gūsiai): <%= klaipeda2.windSpeed %> m/s
+        </p>
+        <p class="card-text">Vėjo direkcija: <%= klaipeda2.windDirection %>°</p>
+        <p class="card-text">Debesuotomas: <%= klaipeda2.conditionCode %></p>
+        <a href="#" class="btn btn-primary">Daugiau prognozių</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem">
+      <img
+        src="https://lh5.googleusercontent.com/proxy/pbmvpQX5uwI_jMPHJKsYVANDmTcIXJc5obBf6Dz0zfPeIzTOTH7oaKKwbEREWg-03wWfHxPxDQpol5len2ZhzDNGHhk4cNosV-smWjPAvdcdBc0BiMvZS-UJEboHKxA7m_YAVfLye1SKtWqCL_IGx-X9DNgU6tE=w675-h390-n-k-no"
+        class="card-img-top"
+        alt="..."
+      />
+      <div class="card-body">
+        <h5 class="card-title">klaipeda</h5>
+        <p class="card-text"><%= klaipeda3.forecastTimeUtc %></p>
+        <p class="card-text"><%= klaipeda3.airTemperature %> °C</p>
+        <p class="card-text">
+          Juntamoji temperatūra: <%= klaipeda3.feelsLikeTemperature %> °C
+        </p>
+        <p class="card-text">
+          Vėjo greitis (gūsiai): <%= klaipeda3.windSpeed %> m/s
+        </p>
+        <p class="card-text">Vėjo direkcija: <%= klaipeda3.windDirection %>°</p>
+        <p class="card-text">Debesuotomas: <%= klaipeda3.conditionCode %></p>
+        <a href="#" class="btn btn-primary">Daugiau prognozių</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="d-flex">
+    <div class="card" style="width: 18rem">
+      <img
+        src="https://lh5.googleusercontent.com/proxy/pbmvpQX5uwI_jMPHJKsYVANDmTcIXJc5obBf6Dz0zfPeIzTOTH7oaKKwbEREWg-03wWfHxPxDQpol5len2ZhzDNGHhk4cNosV-smWjPAvdcdBc0BiMvZS-UJEboHKxA7m_YAVfLye1SKtWqCL_IGx-X9DNgU6tE=w675-h390-n-k-no"
+        class="card-img-top"
+        alt="..."
+      />
+      <div class="card-body">
+        <h5 class="card-title">klaipeda</h5>
+        <p class="card-text"><%= klaipeda4.forecastTimeUtc %></p>
+        <p class="card-text"><%= klaipeda4.airTemperature %> °C</p>
+        <p class="card-text">
+          Juntamoji temperatūra: <%= klaipeda4.feelsLikeTemperature %> °C
+        </p>
+        <p class="card-text">
+          Vėjo greitis (gūsiai): <%= klaipeda4.windSpeed %> m/s
+        </p>
+        <p class="card-text">Vėjo direkcija: <%= klaipeda4.windDirection %>°</p>
+        <p class="card-text">Debesuotomas: <%= klaipeda4.conditionCode %></p>
+        <a href="#" class="btn btn-primary">Daugiau prognozių</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem">
+      <img
+        src="https://lh5.googleusercontent.com/proxy/pbmvpQX5uwI_jMPHJKsYVANDmTcIXJc5obBf6Dz0zfPeIzTOTH7oaKKwbEREWg-03wWfHxPxDQpol5len2ZhzDNGHhk4cNosV-smWjPAvdcdBc0BiMvZS-UJEboHKxA7m_YAVfLye1SKtWqCL_IGx-X9DNgU6tE=w675-h390-n-k-no"
+        class="card-img-top"
+        alt="..."
+      />
+      <div class="card-body">
+        <h5 class="card-title">klaipeda</h5>
+        <p class="card-text"><%= klaipeda5.forecastTimeUtc %></p>
+        <p class="card-text"><%= klaipeda5.airTemperature %> °C</p>
+        <p class="card-text">
+          Juntamoji temperatūra: <%= klaipeda5.feelsLikeTemperature %> °C
+        </p>
+        <p class="card-text">
+          Vėjo greitis (gūsiai): <%= klaipeda5.windSpeed %> m/s
+        </p>
+        <p class="card-text">Vėjo direkcija: <%= klaipeda5.windDirection %>°</p>
+        <p class="card-text">Debesuotomas: <%= klaipeda5.conditionCode %></p>
+        <a href="#" class="btn btn-primary">Daugiau prognozių</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem">
+      <img
+        src="https://lh5.googleusercontent.com/proxy/pbmvpQX5uwI_jMPHJKsYVANDmTcIXJc5obBf6Dz0zfPeIzTOTH7oaKKwbEREWg-03wWfHxPxDQpol5len2ZhzDNGHhk4cNosV-smWjPAvdcdBc0BiMvZS-UJEboHKxA7m_YAVfLye1SKtWqCL_IGx-X9DNgU6tE=w675-h390-n-k-no"
+        class="card-img-top"
+        alt="..."
+      />
+      <div class="card-body">
+        <h5 class="card-title">klaipeda</h5>
+        <p class="card-text"><%= klaipeda6.forecastTimeUtc %></p>
+        <p class="card-text"><%= klaipeda6.airTemperature %> °C</p>
+        <p class="card-text">
+          Juntamoji temperatūra: <%= klaipeda6.feelsLikeTemperature %> °C
+        </p>
+        <p class="card-text">
+          Vėjo greitis (gūsiai): <%= klaipeda6.windSpeed %> m/s
+        </p>
+        <p class="card-text">Vėjo direkcija: <%= klaipeda6.windDirection %>°</p>
+        <p class="card-text">Debesuotomas: <%= klaipeda6.conditionCode %></p>
+        <a href="#" class="btn btn-primary">Daugiau prognozių</a>
+      </div>
+    </div>
+  </div>
+  <%- include('../layouts/bottom') %>
+</div>

@@ -39,4 +39,18 @@ module.exports = {
       res.status(500).send("Server error");
     }
   },
+  show: async (req, res) => {
+    const miestoPavadinimas = req.params.id
+    try {
+      const apiMiesto = await fetch(
+        "https://api.meteo.lt/v1/places/" + miestoPavadinimas + "/forecasts/long-term"
+      );
+      const dataMiesto = await apiMiesto.json();
+      res.render("orai/view", {miestai: dataMiesto.forecastTimestamps, miestopavadinimas:dataMiesto.place}
+      );
+    } catch (err) {
+      console.log(err);
+      res.status(500).send("Server error");
+    }
+  },
 };

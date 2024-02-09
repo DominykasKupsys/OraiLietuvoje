@@ -1,0 +1,30 @@
+<%- include('../layouts/top') %>
+
+<div class="container d-flex justify-content-center align-items-center">
+  <% for(let miestas of miestai) { %>
+  <div class="mb-5">
+    <div class="card" style="width: 18rem">
+      <img
+        src="https://lh5.googleusercontent.com/proxy/pbmvpQX5uwI_jMPHJKsYVANDmTcIXJc5obBf6Dz0zfPeIzTOTH7oaKKwbEREWg-03wWfHxPxDQpol5len2ZhzDNGHhk4cNosV-smWjPAvdcdBc0BiMvZS-UJEboHKxA7m_YAVfLye1SKtWqCL_IGx-X9DNgU6tE=w675-h390-n-k-no"
+        class="card-img-top"
+        id="vilnius"
+      />
+      <div class="card-body">
+        <h5 class="card-title"><%= miestopavadinimas.name %> </h5>
+        <p class="card-text"><%= miestas.forecastTimeUtc %></p>
+        <p class="card-text"><%= miestas.airTemperature %> °C</p>
+        <p class="card-text">
+          Juntamoji temperatūra: <%= miestas.feelsLikeTemperature %> °C
+        </p>
+        <p class="card-text">
+          Vėjo greitis (gūsiai): <%= miestas.windSpeed %> m/s
+        </p>
+        <p class="card-text">Vėjo direkcija: <%= miestas.windDirection %>°</p>
+        <p class="card-text">oro sąlygos: <%= miestas.conditionCode %></p>
+      </div>
+    </div>
+    <% } %>
+  </div>
+
+  <%- include('../layouts/bottom') %>
+</div>

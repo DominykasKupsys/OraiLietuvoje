@@ -1,18 +1,24 @@
-<%- include('../layouts/top') %>
-<%- include('../layouts/nav') %>
-<table>
-  <thead>
-    <tr>
-      <th>pavadinimas</th>
-      <th>savivaldybė</th>
-    </tr>
-  </thead>
-  <tbody>
-    <% for(let miestas of miestai) { %>
-    <tr>
-      <td><a href="/orai/miestas/<%= miestas.name %>"><%= miestas.name %></a></td>
-      <td><%= miestas.administrativeDivision %></td>
-    </tr>
-    <% } %>
-  </tbody>
-</table> <%- include('../layouts/bottom') %>
+<%- include('../layouts/top') %> <%- include('../layouts/nav') %>
+<div
+  class="container d-flex justify-content-center align-items-center flex-wrap"
+>
+  <table>
+    <thead>
+      <tr>
+        <th>pavadinimas</th>
+        <th>savivaldybė</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% for(let miestas of miestai) { %>
+      <tr>
+        <td>
+          <a href="/orai/miestas/<%= miestas.name %>"><%= miestas.name %></a>
+        </td>
+        <td><%= miestas.administrativeDivision %></td>
+      </tr>
+      <% } %>
+    </tbody>
+  </table>
+</div>
+<%- include('../layouts/bottom') %>

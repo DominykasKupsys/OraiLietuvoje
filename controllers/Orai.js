@@ -53,4 +53,18 @@ module.exports = {
       res.status(500).send("Server error");
     }
   },
+  miestai: async (req, res) => {
+
+    try {
+      const apiMiestu = await fetch(
+        "https://api.meteo.lt/v1/places/"
+      );
+      const dataMiestu = await apiMiestu.json();
+      res.render("orai/miestuSarasas", {miestai: dataMiestu}
+      );
+    } catch (err) {
+      console.log(err);
+      res.status(500).send("Server error");
+    }
+  },
 };
